@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F47CEA08E948F764F3B5506 /* Pods_PingX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA311C49FADF506062EA706 /* Pods_PingX.framework */; };
+		C6354F8126F395920086B870 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C6354F8026F395920086B870 /* Podfile */; };
+		C6354F8326F3963D0086B870 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6354F8226F3963C0086B870 /* SideMenu.swift */; };
+		C6354F8526F396630086B870 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6354F8426F396630086B870 /* HomeList.swift */; };
+		C6354F8726F39A330086B870 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6354F8626F39A330086B870 /* TabView.swift */; };
+		C68F142326F389FE00846AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F142226F389FE00846AC5 /* AppDelegate.swift */; };
+		C68F142526F389FE00846AC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F142426F389FE00846AC5 /* SceneDelegate.swift */; };
+		C68F142726F389FE00846AC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F142626F389FE00846AC5 /* ViewController.swift */; };
+		C68F142A26F389FE00846AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68F142826F389FE00846AC5 /* Main.storyboard */; };
+		C68F142D26F389FE00846AC5 /* PingX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C68F142B26F389FE00846AC5 /* PingX.xcdatamodeld */; };
+		C68F142F26F389FF00846AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68F142E26F389FF00846AC5 /* Assets.xcassets */; };
+		C68F143226F389FF00846AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68F143026F389FF00846AC5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		922D7C1DC807E00A25EDE34C /* Pods-PingX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingX.debug.xcconfig"; path = "Target Support Files/Pods-PingX/Pods-PingX.debug.xcconfig"; sourceTree = "<group>"; };
+		C6354F8026F395920086B870 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C6354F8226F3963C0086B870 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		C6354F8426F396630086B870 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		C6354F8626F39A330086B870 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		C68F141F26F389FD00846AC5 /* PingX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68F142226F389FE00846AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C68F142426F389FE00846AC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C68F142626F389FE00846AC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C68F142926F389FE00846AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68F142C26F389FE00846AC5 /* PingX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PingX.xcdatamodel; sourceTree = "<group>"; };
+		C68F142E26F389FF00846AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68F143126F389FF00846AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C68F143326F389FF00846AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC87668BFF6AE7CECD435B1C /* Pods-PingX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingX.release.xcconfig"; path = "Target Support Files/Pods-PingX/Pods-PingX.release.xcconfig"; sourceTree = "<group>"; };
+		EFA311C49FADF506062EA706 /* Pods_PingX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68F141C26F389FD00846AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F47CEA08E948F764F3B5506 /* Pods_PingX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		407AAE5285828FDA089F883C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				922D7C1DC807E00A25EDE34C /* Pods-PingX.debug.xcconfig */,
+				DC87668BFF6AE7CECD435B1C /* Pods-PingX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C68F141626F389FD00846AC5 = {
+			isa = PBXGroup;
+			children = (
+				C6354F8026F395920086B870 /* Podfile */,
+				C68F142126F389FD00846AC5 /* PingX */,
+				C68F142026F389FD00846AC5 /* Products */,
+				407AAE5285828FDA089F883C /* Pods */,
+				E1AA6EBEE0D7AD3C78A44B6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C68F142026F389FD00846AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68F141F26F389FD00846AC5 /* PingX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68F142126F389FD00846AC5 /* PingX */ = {
+			isa = PBXGroup;
+			children = (
+				C68F142226F389FE00846AC5 /* AppDelegate.swift */,
+				C68F142426F389FE00846AC5 /* SceneDelegate.swift */,
+				C68F142626F389FE00846AC5 /* ViewController.swift */,
+				C68F142826F389FE00846AC5 /* Main.storyboard */,
+				C68F142E26F389FF00846AC5 /* Assets.xcassets */,
+				C68F143026F389FF00846AC5 /* LaunchScreen.storyboard */,
+				C68F143326F389FF00846AC5 /* Info.plist */,
+				C68F142B26F389FE00846AC5 /* PingX.xcdatamodeld */,
+				C6354F8226F3963C0086B870 /* SideMenu.swift */,
+				C6354F8426F396630086B870 /* HomeList.swift */,
+				C6354F8626F39A330086B870 /* TabView.swift */,
+			);
+			path = PingX;
+			sourceTree = "<group>";
+		};
+		E1AA6EBEE0D7AD3C78A44B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFA311C49FADF506062EA706 /* Pods_PingX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68F141E26F389FD00846AC5 /* PingX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68F143626F389FF00846AC5 /* Build configuration list for PBXNativeTarget "PingX" */;
+			buildPhases = (
+				DDE9A8952003245C3A87BE59 /* [CP] Check Pods Manifest.lock */,
+				C68F141B26F389FD00846AC5 /* Sources */,
+				C68F141C26F389FD00846AC5 /* Frameworks */,
+				C68F141D26F389FD00846AC5 /* Resources */,
+				6C2EF5E61A80BF565AA6A24F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingX;
+			productName = PingX;
+			productReference = C68F141F26F389FD00846AC5 /* PingX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68F141726F389FD00846AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C68F141E26F389FD00846AC5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = C68F141A26F389FD00846AC5 /* Build configuration list for PBXProject "PingX" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68F141626F389FD00846AC5;
+			productRefGroup = C68F142026F389FD00846AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68F141E26F389FD00846AC5 /* PingX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68F141D26F389FD00846AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68F143226F389FF00846AC5 /* LaunchScreen.storyboard in Resources */,
+				C68F142F26F389FF00846AC5 /* Assets.xcassets in Resources */,
+				C6354F8126F395920086B870 /* Podfile in Resources */,
+				C68F142A26F389FE00846AC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C2EF5E61A80BF565AA6A24F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PingX/Pods-PingX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PingX/Pods-PingX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PingX/Pods-PingX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE9A8952003245C3A87BE59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PingX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68F141B26F389FD00846AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6354F8526F396630086B870 /* HomeList.swift in Sources */,
+				C68F142D26F389FE00846AC5 /* PingX.xcdatamodeld in Sources */,
+				C68F142726F389FE00846AC5 /* ViewController.swift in Sources */,
+				C6354F8326F3963D0086B870 /* SideMenu.swift in Sources */,
+				C6354F8726F39A330086B870 /* TabView.swift in Sources */,
+				C68F142326F389FE00846AC5 /* AppDelegate.swift in Sources */,
+				C68F142526F389FE00846AC5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C68F142826F389FE00846AC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68F142926F389FE00846AC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C68F143026F389FF00846AC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68F143126F389FF00846AC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68F143426F389FF00846AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C68F143526F389FF00846AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68F143726F389FF00846AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922D7C1DC807E00A25EDE34C /* Pods-PingX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 692S4255HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PingX/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oblank.PingX2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C68F143826F389FF00846AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC87668BFF6AE7CECD435B1C /* Pods-PingX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 692S4255HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PingX/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oblank.PingX2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68F141A26F389FD00846AC5 /* Build configuration list for PBXProject "PingX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68F143426F389FF00846AC5 /* Debug */,
+				C68F143526F389FF00846AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68F143626F389FF00846AC5 /* Build configuration list for PBXNativeTarget "PingX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68F143726F389FF00846AC5 /* Debug */,
+				C68F143826F389FF00846AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C68F142B26F389FE00846AC5 /* PingX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C68F142C26F389FE00846AC5 /* PingX.xcdatamodel */,
+			);
+			currentVersion = C68F142C26F389FE00846AC5 /* PingX.xcdatamodel */;
+			path = PingX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C68F141726F389FD00846AC5 /* Project object */;
+}

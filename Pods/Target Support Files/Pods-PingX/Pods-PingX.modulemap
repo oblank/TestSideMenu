@@ -1,0 +1,6 @@
+framework module Pods_PingX {
+  umbrella header "Pods-PingX-umbrella.h"
+
+  export *
+  module * { export * }
+}
