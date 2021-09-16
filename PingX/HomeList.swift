@@ -9,7 +9,24 @@ import SwiftUI
 
 struct HomeList: View {
     var body: some View {
-        Text("Hello, Home!")
+//        NavigationView {
+            
+            List {
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+            }
+            .listStyle(.insetGrouped)
+//        }
     }
 }
 

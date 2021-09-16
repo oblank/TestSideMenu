@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct TabView: View {
+struct TabUIView: View {
     var body: some View {
-        Group {
+        TabView() {
             HomeList()
                 .badge(10)
                 .tabItem {

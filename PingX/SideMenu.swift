@@ -9,7 +9,24 @@ import SwiftUI
 
 struct SideMenu: View {
     var body: some View {
-        Text("Hello, Side Menu!")
+//        NavigationView {
+            
+            List {
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+                NavigationLink(destination: DetailView()) {
+                    Text("Hello, Home!")
+                }
+            }
+            .listStyle(.insetGrouped)
+//        }
     }
 }
 
