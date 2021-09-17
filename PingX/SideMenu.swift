@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SideMenu: View {
     var body: some View {
-//        NavigationView {
+        NavigationView {
             
             List {
                 NavigationLink(destination: DetailView()) {
@@ -26,7 +26,7 @@ struct SideMenu: View {
                 }
             }
             .listStyle(.insetGrouped)
-//        }
+        }
     }
 }
 
