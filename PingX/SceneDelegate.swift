@@ -8,6 +8,7 @@
 import UIKit
 import SideMenuSwift
 import SwiftUI
+import SideMenu
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -26,8 +27,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let contentViewController = UIHostingController(rootView: TabUIView())
             let menuViewController = UIHostingController(rootView: SideMenu())
             
-            window.rootViewController = SideMenuController(contentViewController: contentViewController,
-            menuViewController: menuViewController)
+//            // Define the menu
+//            let menu = SideMenuNavigationController(rootViewController: YourViewController)
+//            // SideMenuNavigationController is a subclass of UINavigationController, so do any additional configuration
+//            // of it here like setting its viewControllers. If you're using storyboards, you'll want to do something like:
+//            // let menu = storyboard!.instantiateViewController(withIdentifier: "RightMenu") as! SideMenuNavigationController
+//            present(menu, animated: true, completion: nil)
+            
+//            window.rootViewController = SideMenuController(contentViewController: contentViewController,
+//            menuViewController: menuViewController)
+            
+            window.rootViewController = contentViewController
             
             self.window = window
             window.makeKeyAndVisible()

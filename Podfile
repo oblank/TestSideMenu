@@ -7,4 +7,6 @@ target 'PingX' do
 
   # Pods for PingX
   pod 'SideMenuSwift'
+  pod 'SideMenu'
+
 end

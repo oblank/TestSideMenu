@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SideMenu
 
 struct HomeList: View {
     var body: some View {
@@ -26,6 +27,19 @@ struct HomeList: View {
                 }
             }
             .listStyle(.insetGrouped)
+            .navigationBarItems(leading: Button("SideMenu") {
+                // Define the menu
+                let menuViewController = UIHostingController(rootView: SideMenu())
+                let menu = SideMenuNavigationController(rootViewController: menuViewController)
+                
+                let keyWindow = UIApplication.shared.connectedScenes
+                        .filter({$0.activationState == .foregroundActive})
+                        .compactMap({$0 as? UIWindowScene})
+                        .first?.windows
+                        .filter({$0.isKeyWindow}).first
+                
+                keyWindow?.rootViewController?.present(menu, animated: true, completion: nil)
+            })
         }
     }
 }
